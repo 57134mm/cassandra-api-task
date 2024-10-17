@@ -1,0 +1,23 @@
+{
+  "name": "cassandra-api-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mansi",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cassandra-driver": "^4.7.2",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.13.0",
+    "sequelize": "^6.37.4",
+    "sequelize-cli": "^6.6.2",
+    "swagger-autogen": "^2.23.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
